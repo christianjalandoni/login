@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+	<title>Login Form</title>
+	<style>
+		body {
+			background-color: #e79a9a;
+		}
+
+		form {
+			background-color: #e1b8b8;
+			border: 2px solid #ccc;
+			padding: 10px;
+			max-width: 300px;
+			margin: 0 auto;
+		}
+
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+            background-color: #cde3ce;
+		}
+
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+		}
+
+		button:hover {
+			opacity: 0.8;
+		}
+
+        h2{
+            text-align: center;
+            font-family: 'Anton', sans-serif;
+        }
+
+        label{
+            font-family: 'Comfortaa', cursive;
+        }
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Login Form</h2>
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username">
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+
+		<button type="submit">Login</button>
+	</form>
+</body>
+</html>
